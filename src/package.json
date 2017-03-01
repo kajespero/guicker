@@ -1,0 +1,30 @@
+{
+  "name": "guicker",
+  "version": "1.0.0",
+  "description": "Docker UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "serve": "./node_modules/.bin/webpack-dev-server --host 0.0.0.0 --inline --content-base ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajespero/guicker.git"
+  },
+  "keywords": [
+    "Docker",
+    "UI"
+  ],
+  "author": "Florent Moignard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kajespero/guicker/issues"
+  },
+  "homepage": "https://github.com/kajespero/guicker#readme",
+  "devDependencies": {
+    "css-loader": "^0.26.2",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
